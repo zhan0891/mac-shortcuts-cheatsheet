@@ -211,7 +211,18 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 0.25rem 0;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--text-primary);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
